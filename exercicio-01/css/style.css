@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(45deg, var(--cor-01) 5%, var(--cor-02) 7%, var(--cor-03) 15%, var(--cor-04));
+    background-attachment: fixed;
+}
+
+main{
+    background-color: #FFF;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px var(--cor-08);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--font-padrão);
+    color: var(--cor-05);
+    text-shadow: 1px 1px 5px var(--cor-06);
+}
+
+h2{
+    font-family: var(--font-padrão);
+    color: var(--cor-07);
+    text-shadow: 1px 1px 5px var(--cor-08);
+    margin-top: 40px;
+}
+
+p{
+    text-align: justify;
+    font-family: var(--font-padrão);
+    color: #000;
+    margin-top: 20px;
+}
+
+.img{
+    height: 315px;
+    width: 205px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
+
+.container-text{
+    margin-left: 20px;
+}
+
+input[type="button"]{
+    background-color: var(--cor-02);
+    color: var(--cor-04);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-padrão);
+    text-shadow: 1px 1px 5px var(--cor-03);
+}
+
+input[type="button"]:hover{
+    background-color: var(--cor-01);
+}
