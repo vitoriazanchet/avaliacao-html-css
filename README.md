@@ -8,12 +8,12 @@ Este projeto foi desenvolvido como um exercício prático para a disciplina de *
 
 ## 🗂️ Organização do Projeto
 
-* **Divisão de pastas:** 
+**Divisão de pastas:** 
 Foram realizados 3 exercícios com propóstas diferentes e estão separados pelas pastas `exercicio-01`, `exercicio-02` e `exercicio-03`, podendo conter:
-    **css**: pasta obrigatória, pois torna a revisão e ajuste do estilo do projeto muito mais célere. E nela está o arquivo `styles.css` que é o arquivo de estilo global.
-    **img**: pasta contendo os arquivos de imagens.
-    **pages**: pasta contendo as páginas da aplicação.
-    **index.htlm**: arquivo obrigatório na raiz do projeto, ele basicamente é a estrutura, o que conecta todos os elementos.
+* **css**: pasta obrigatória, pois torna a revisão e ajuste do estilo do projeto muito mais célere. E nela está o arquivo `styles.css` que é o arquivo de estilo global.
+* **img**: pasta contendo os arquivos de imagens.
+* **pages**: pasta contendo as páginas da aplicação.
+* **index.htlm**: arquivo obrigatório na raiz do projeto, ele basicamente é a estrutura, o que conecta todos os elementos.
     
 ---
 
