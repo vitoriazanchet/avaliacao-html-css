@@ -1,6 +1,27 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    
+    --cor-01: #76A9F5;
+    --cor-02: #7BC5FF;
+    --cor-03: #A1E0F8;
+    --cor-04: #C7E8F5;
+    --cor-05: #000040;
+    --cor-06: rgba(5, 5, 64, 0.6);
+    --cor-07: #76D3F4;
+    --cor-08: rgba(118, 210, 244, 0.6);
+   
+    --font-padrão: "Libre Baskerville", serif;
+}
+
 body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     background-image: linear-gradient(45deg, var(--cor-01) 5%, var(--cor-02) 7%, var(--cor-03) 15%, var(--cor-04));
     background-attachment: fixed;
 }
@@ -36,6 +57,22 @@ p{
     margin-top: 20px;
 }
 
+input[type="button"]{
+    background-color: var(--cor-02);
+    color: var(--cor-04);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-padrão);
+    text-shadow: 1px 1px 5px var(--cor-03);
+}
+
+input[type="button"]:hover{
+    background-color: var(--cor-01);
+}
+
 .img{
     height: 315px;
     width: 205px;
@@ -53,20 +90,4 @@ p{
 
 .container-text{
     margin-left: 20px;
-}
-
-input[type="button"]{
-    background-color: var(--cor-02);
-    color: var(--cor-04);
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: var(--font-padrão);
-    text-shadow: 1px 1px 5px var(--cor-03);
-}
-
-input[type="button"]:hover{
-    background-color: var(--cor-01);
 }
