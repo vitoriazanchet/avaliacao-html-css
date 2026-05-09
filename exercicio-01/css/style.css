@@ -24,6 +24,8 @@ body{
     margin: 0;
     background-image: linear-gradient(45deg, var(--cor-01) 5%, var(--cor-02) 7%, var(--cor-03) 15%, var(--cor-04));
     background-attachment: fixed;
+    font-size: 16px;
+    padding: 10px;
 }
 
 main{
@@ -84,10 +86,17 @@ input[type="button"]:hover{
 .container{
     display: flex;
     align-items: center;
+    flex-direction: column;
     margin: auto;
     width: 60%;
 }
 
 .container-text{
     margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
 }
